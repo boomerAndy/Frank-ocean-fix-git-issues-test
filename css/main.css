@@ -271,16 +271,20 @@ small
     text-align: center;
     color: white;
 }
-
+@media (min-width: 400px){
+    .EarlyLifeContainer{
+        margin-left: em;
+    }
+}
 @media (max-width: 1600px) {
     .EarlyLifeContainer {
-        margin-left: 120px;
+        margin-left: 85px;
         margin-right: 10px;
         width: 570px;
         height: 321px;
     }
     .AlbumContainer {
-        margin-left: 120px;
+        margin-left: 5em;
         margin-right: 0px;
         width: 570px;
         height: 321px;
