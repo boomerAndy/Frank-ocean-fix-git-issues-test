@@ -14,6 +14,22 @@
     <link rel="stylesheet" href="css/main.css"/>
     </head>
 <body>
+    <p>Click the button to display this frame's height and width.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p><strong>Note:</strong> The innerWidth and innerHeight properties are not supported in IE8 and earlier.</p>
+
+<p id="demo"></p>
+    <script>
+function myFunction() {
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+    var LeftM = (w - 650) / 2;
+  document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h;
+}
+</script>
+
     <header>
         <img class="logo" src="Images/FO-WEBLOGO-4dc1ffCYAN-FULLRES.png" alt="Blogo" >
         <nav>
@@ -23,7 +39,7 @@
                 <li> <a href="Albums.html">Albums</a></li>
                 <li> <a href="Future.html">Future</a></li>
                 <li> <a href="Gallery.html">Gallery</a></li>
-                
+            
             </ul>
         </nav>
       </header>
